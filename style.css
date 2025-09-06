@@ -402,9 +402,20 @@ body {
 }
 
 /* Left image */
+/* Left image - increase size */
+.frustrations .left {
+    flex: 1.3; /* bigger portion */
+}
+
+.frustrations .right {
+    flex: 1; /* smaller portion */
+}
+
 .frustrations .left img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 /* Accordion */
