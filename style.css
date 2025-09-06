@@ -159,6 +159,105 @@ body {
     color: #0073e6;
 }
 
+/* Hero Section */
+.hero-section {
+  background: #f9f9f9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-container {
+  max-width: 900px;
+  text-align: start;
+  padding: 60px;
+  margin-top: 50px;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #0073e6;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #005bb5;
+}
+
+.btn-outline {
+  background: transparent;
+}
+
+.btn-outline:hover {
+  color: #fff;
+}
+
+/* Counters */
+.hero-counters {
+  display: flex;
+  gap: 30px;
+}
+
+.counter-box {
+  background: #fff;
+  border-radius: 8px;
+  min-width: 200px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: start;
+  transition: transform 0.3s ease;
+}
+
+.counter-box:hover {
+  transform: translateY(-5px);
+}
+
+.counter-box h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.counter-box p {
+  font-size: 15px;
+  color: #444;
+}
+
+
 /* Submenu */
 .has-submenu {
     position: relative;
@@ -544,13 +643,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     margin-bottom: 30px;
 }
 
 .footer-nav a {
     text-decoration: none;
     font-weight: 500;
+    color: #333;
 }
 
 .footer-nav a:hover {
