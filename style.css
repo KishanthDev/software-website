@@ -376,6 +376,128 @@ body {
 }
 
 /* Section 3 Styles */
+.frustrations {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    /* added padding for spacing */
+}
+
+.frustrations-p {
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
+    padding: 0 220px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Main container */
+.frustrations .container {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    align-items: center;
+    gap: 40px;
+    /* space between image and accordion */
+}
+
+/* Left image */
+.frustrations .left img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Accordion */
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-title {
+    width: 100%;
+    /* changed from fixed 500px */
+    text-align: left;
+    padding: 19px;
+    background: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.accordion-title:hover {
+    background: #f1f1f1;
+}
+
+.accordion-content {
+    width: 100%;
+    /* changed from fixed 500px */
+    padding: 0 15px;
+    background: #fff;
+    font-size: 15px;
+    color: #555;
+
+    /* Smooth transition */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+/* Show content when active */
+.accordion-item.active .accordion-content {
+    max-height: 500px;
+    padding: 15px;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+
+/* Tablets */
+@media (max-width: 992px) {
+    .frustrations-p {
+        padding: 0 50px;
+        font-size: 32px;
+    }
+
+    .frustrations .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .accordion-title {
+        font-size: 18px;
+    }
+
+    .accordion-content {
+        font-size: 14px;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+    .frustrations-p {
+        padding: 0 20px;
+        font-size: 26px;
+    }
+
+    .accordion-title {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .accordion-content {
+        font-size: 14px;
+    }
+}
+
+
+/* Section 3 Styles */
 .section-3 {
     padding: 50px 20px;
     max-width: 1200px;
