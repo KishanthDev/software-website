@@ -161,100 +161,102 @@ body {
 
 /* Hero Section */
 .hero-section {
-  background: #f9f9f9;
-  padding: 80px 20px;
-  text-align: center;
+    background: #f9f9f9;
+    padding: 80px 20px;
+    text-align: center;
 }
 
 .hero-container {
-  max-width: 900px;
-  text-align: start;
-  padding: 60px;
-  margin-top: 50px;
+    max-width: 900px;
+    text-align: start;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
 }
 
 .hero-title {
-  font-size: 42px;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 20px;
-  max-width: 600px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+    max-width: 600px;
 }
 
 .hero-subtitle {
-  font-size: 18px;
-  color: #555;
-  margin-bottom: 30px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Buttons */
 .hero-buttons {
-  display: flex;
-  justify-content: start;
-  gap: 15px;
-  margin-bottom: 60px;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    margin-bottom: 60px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: all 0.3s ease;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .btn-primary {
-  background: #0073e6;
-  color: #fff;
+    background: #0073e6;
+    color: #fff;
 }
 
 .btn-primary:hover {
-  background: #005bb5;
+    background: #005bb5;
 }
 
 .btn-outline {
-  background: transparent;
+    background: transparent;
 }
 
 .btn-outline:hover {
-  color: #fff;
+    color: #fff;
 }
 
 /* Counters */
 .hero-counters {
-  display: flex;
-  gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 .counter-box {
-  background: #fff;
-  border-radius: 8px;
-  min-width: 200px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  text-align: start;
-  transition: transform 0.3s ease;
+    background: #fff;
+    border-radius: 8px;
+    min-width: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: start;
+    transition: transform 0.3s ease;
 }
 
 .counter-box:hover {
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 .counter-box h2 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #0073e6;
-  margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0073e6;
+    margin-bottom: 10px;
 }
 
 .counter-box p {
-  font-size: 15px;
-  color: #444;
+    font-size: 15px;
+    color: #444;
 }
 
 
@@ -691,6 +693,58 @@ body {
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
         display: none;
         /* can toggle with JS if you add a hamburger */
+    }
+}
+
+/* ------------------ Responsive ------------------ */
+
+/* Tablet */
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 34px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .hero-counters {
+        gap: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hero-section {
+        padding: 50px 15px;
+        text-align: start;
+    }
+
+    .hero-title {
+        font-size: 28px;
+        text-align: start;
+        max-width: 100%;
+    }
+
+    .hero-subtitle {
+        font-size: 15px;
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: start;
+    }
+
+    .hero-counters {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .counter-box {
+        width: 100%;
+        max-width: 320px;
     }
 }
 
