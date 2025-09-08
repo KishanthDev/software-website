@@ -320,7 +320,7 @@ body {
 }
 
 .hero-title {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
     max-width: 600px;
@@ -517,7 +517,7 @@ body {
 
 .frustrations-p {
     text-align: center;
-    font-size: 43px;
+    font-size: 40px;
     font-weight: bold;
     padding: 0 220px;
     margin-bottom: 30px;
@@ -658,7 +658,7 @@ body {
 
 .section-3 h3 {
     text-align: center;
-    font-size: 43px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 
@@ -674,7 +674,7 @@ body {
 }
 
 .section-3 .left p {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .section-3 .right {
@@ -692,20 +692,20 @@ body {
     display: flex;
     align-items: flex-start;
     margin-bottom: 15px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .section-3 .feature-list i {
     color: green;
     margin-right: 10px;
     margin-top: 8px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .section-3 .bottom-text {
     margin-top: 30px;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -734,7 +734,7 @@ body {
 }
 
 .why-title {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 50px;
     color: #222;
@@ -825,7 +825,7 @@ body {
 }
 
 .trusted-title {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 15px;
     color: #333;
@@ -887,7 +887,7 @@ body {
 }
 
 .expertise-section .section-title {
-    font-size: 43px;
+    font-size: 40px;
     margin-bottom: 40px;
     font-weight: bold;
     color: #333;
@@ -958,7 +958,7 @@ body {
 }
 
 .left .heading {
-    font-size: 52px;
+    font-size: 40px;
     margin-bottom: 20px;
     padding-left: 2px;
     color: #333;
