@@ -127,12 +127,19 @@ body {
 .btn {
     background: #0073e6;
     color: #fff;
-    padding: 8px 20px;
+    padding: 8px 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;
     transition: background 0.2s;
     margin-right: 10px;
+}
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .btn:hover {
@@ -335,15 +342,7 @@ body {
     margin-bottom: 60px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
+
 
 .btn-primary {
     background: #0073e6;
@@ -434,7 +433,6 @@ body {
     display: inline-block;
     background: #0073e6;
     color: #fff;
-    padding: 8px 16px;
     border-radius: 6px;
     font-weight: 600;
     text-decoration: none;
@@ -1040,10 +1038,12 @@ body {
         flex: 1 1 100%;
     }
 }
+
 @media (max-width: 600px) {
-  .features .feature {
-    flex: 1 1 100%; /* full width on small screens */
-  }
+    .features .feature {
+        flex: 1 1 100%;
+        /* full width on small screens */
+    }
 }
 
 
@@ -1291,9 +1291,11 @@ body {
 
 @media (max-width: 600px) {
     .footer-item {
-        font-size: 20px;
+        font-size: 14px;
     }
+
     .footer-nav ul {
-        gap: 20px;
+        gap: 15px;
+        font-size: 14px;
     }
 }
