@@ -447,7 +447,7 @@ body {
 /* Section */
 
 .features {
-    padding: 60px 20px;
+    padding: 50px 20px;
     background: #f9f9f9;
 }
 
@@ -724,7 +724,7 @@ body {
 /* WHY   Section */
 .why-section {
     background: #f9f9f9;
-    padding: 80px 20px;
+    padding: 50px 20px;
     text-align: center;
 }
 
@@ -814,7 +814,7 @@ body {
 /* Trusted By Section */
 
 .trusted-section {
-    padding: 60px 20px;
+    padding: 50px 20px;
     background-color: #f9f9f9;
     text-align: center;
 }
@@ -881,7 +881,7 @@ body {
 
 /* Expertise */
 .expertise-section {
-    padding: 60px 20px;
+    padding: 50px 20px;
     text-align: center;
     background: #f9f9f9;
 }
@@ -933,7 +933,7 @@ body {
 
 /* General Container */
 .form-section {
-    padding: 50px 15px;
+    padding: 50px 20px;
     background: #f9f9f9;
     font-family: Arial, sans-serif;
 }
@@ -1051,7 +1051,7 @@ body {
 /* Call to Action Section */
 .cta-section {
     background: #f9f9f9;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
 .cta-container {
@@ -1181,7 +1181,7 @@ body {
 /* Mobile */
 @media (max-width: 600px) {
     .hero-section {
-        padding: 50px 15px;
+        padding: 50px 20px;
         text-align: start;
     }
 
