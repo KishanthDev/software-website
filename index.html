@@ -493,6 +493,14 @@
                 header.classList.remove("scrolled");
             }
         });
+        document.addEventListener("DOMContentLoaded", function () {
+            const navToggle = document.getElementById("navToggle");
+            const navMenu = document.getElementById("mainNav");
+
+            navToggle.addEventListener("click", function () {
+                navMenu.classList.toggle("open"); // adds/removes .open class
+            });
+        });
     </script>
 
 

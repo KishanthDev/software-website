@@ -134,6 +134,7 @@ body {
     transition: background 0.2s;
     margin-right: 10px;
 }
+
 .btn {
     display: inline-block;
     font-size: 14px;
@@ -177,10 +178,11 @@ body {
 
     .nav-menu {
         position: absolute;
-        top: 62px;
+        top: 75px;
         left: 0;
         right: 0;
-        background: #222;
+        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.6);
         display: none;
         flex-direction: column;
         width: 100%;
