@@ -153,6 +153,11 @@ body {
     transition: color 0.3s;
 }
 
+/* When scrolled */
+.scrolled .nav-menu a {
+    color: #000000;
+}
+
 .nav-menu a:hover {
     color: #0073e6;
 }

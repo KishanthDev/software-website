@@ -500,6 +500,14 @@
                 }
             });
         });
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector("header"); // your header element
+            if (window.scrollY > 600) { // distance in px before color change
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        });
     </script>
 
 
