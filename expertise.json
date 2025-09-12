@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "displayName": "Programming Languages",
+    "list": [
+      { "id": 1, "name": "Java", "imageUrl": "images/java.png" },
+      { "id": 2, "name": "Python", "imageUrl": "images/python.png" },
+      { "id": 3, "name": "TypeScript", "imageUrl": "images/typescript.png" },
+      { "id": 4, "name": "Scala", "imageUrl": "images/scala.png" }
+    ]
+  },
+  {
+    "id": 2,    
+    "displayName": "Frontend",
+    "list": [
+      { "id": 1, "name": "ReactJS", "imageUrl": "images/reactjs.jpg" },
+      { "id": 2, "name": "Redux", "imageUrl": "images/redux.png" },
+      { "id": 3, "name": "Angular", "imageUrl": "images/angular.png" },
+      { "id": 4, "name": "VueJS", "imageUrl": "images/vuejs.png" }
+    ]
+  },
+  {
+    "id": 3,
+    "displayName": "Backend",
+    "list": [
+      { "id": 1, "name": "NodeJS", "imageUrl": "images/nodejs.png" },
+      { "id": 2, "name": "PHP", "imageUrl": "images/php.png" },
+      { "id": 3, "name": "Laravel", "imageUrl": "images/laravel.png" },
+      { "id": 4, "name": "Rails", "imageUrl": "images/ror.png" }
+    ]
+  },
+  {
+    "id": 4,
+    "displayName": "DevOps • Cloud • SRE",
+    "list": [
+      { "id": 1, "name": "DevOps", "imageUrl": "images/devops.png" },
+      { "id": 2, "name": "AWS", "imageUrl": "images/aws.png" },
+      { "id": 3, "name": "Salesforce", "imageUrl": "images/salesforce.png" },
+      { "id": 4, "name": "Big Data", "imageUrl": "images/bigdata.png" }
+    ]
+  }
+]
