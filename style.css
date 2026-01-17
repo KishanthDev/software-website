@@ -942,11 +942,11 @@ body {
 }
 
 /* LEFT */
-.form-contact-details p {
-    font-size: 15px;
-    line-height: 1.7;
-    color: #111;
-    margin-bottom: 16px;
+.form-contact-details {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    align-self: start;
 }
 
 .link-contact {
@@ -973,7 +973,7 @@ body {
 }
 
 .typo-label {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     color: #222;
 }
@@ -981,9 +981,9 @@ body {
 .input-text,
 .input-text-area {
     border: 1px solid #ddd;
-    padding: 12px 14px;
-    font-size: 15px;
-    border-radius: 6px;
+    padding: 16px 18px;
+    font-size: 16px;
+    border-radius: 10px;
     outline: none;
     transition: border 0.2s ease;
 }
