@@ -178,12 +178,54 @@ body {
 
 /* MOBILE STYLES */
 @media (max-width: 700px) {
+    .site-header {
+        position: unset !important;
+        left: 10px !important;
+        right: 10px !important;
+        top: 15px;
+    }
+    
     .container {
         display: flex !important;
         align-items: center !important;
         justify-content: space-between !important;
+        padding: 8px 12px !important; /* Reduced from default 12px 20px */
+        gap: 0 !important; /* No gap between logo/nav/cta */
+        min-height: 50px;
     }
-
+    
+    .logo {
+        flex-shrink: 1;
+        max-width: 45%; /* Constrain logo */
+    }
+    
+    .logo-text {
+        font-size: 14px !important;
+        letter-spacing: -0.04em; /* Tighter spacing */
+        gap: 1px !important; /* Reduce icon-text gap */
+    }
+    
+    .cta {
+        flex: 0 0 auto !important;
+        display: flex;
+        align-items: center;
+        gap: 4px !important; /* Minimal space between btn and toggle */
+        margin-left: auto; /* Push to right edge */
+    }
+    
+    .btn {
+        padding: 6px 8px !important; /* Smaller btn */
+        font-size: 12px !important;
+        white-space: nowrap;
+        flex-shrink: 1;
+    }
+    
+    .nav-toggle {
+        padding: 2px 4px !important;
+        font-size: 24px !important; /* Slightly smaller toggle */
+        margin: 0 !important;
+    }
+    
     .nav-menu {
         position: absolute;
         top: 75px;
@@ -201,6 +243,9 @@ body {
     .nav-menu.open {
         display: flex;
     }
+     .nav-toggle {
+        display: inline-block;
+    }
 
     .nav-menu ul {
         flex-direction: column;
@@ -208,20 +253,19 @@ body {
         padding: 16px 0;
         align-items: flex-start;
     }
+}
 
-    .cta {
-        flex: 1 0 auto;
-        justify-content: flex-end;
-    }
-
-    .nav-toggle {
-        display: inline-block;
-    }
-
+/* Extra small screens */
+@media (max-width: 400px) {
     .logo-text {
-        font-size: 14px !important;
+        font-size: 12px !important;
+    }
+    .btn {
+        padding: 4px 6px !important;
+        font-size: 11px !important;
     }
 }
+
 
 
 .logo-text {
@@ -476,6 +520,7 @@ body {
 }
 
 .features .container {
+    display: grid !important;
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -1088,15 +1133,27 @@ body {
     margin-top: 10px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
-    .form-inner {
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
+
+  .form-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-contact-details {
+    position: static;      /* 🔥 reset sticky */
+    top: auto;
+    transform: none;
+    align-self: stretch;
+
+    margin-bottom: 32px;   /* spacing above form */
+  }
+
+  .form {
+    width: 100%;
+  }
+
 }
-
-
 
 /* =========================
    FOOTER
