@@ -226,11 +226,14 @@ body {
 
 .logo-text {
     font-family: "Poppins", sans-serif;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
     color: #0073e6;
-    /* pick your brand color */
-    letter-spacing: 1px;
 }
 
 .logo a {
@@ -297,15 +300,22 @@ body {
 /* Header transparent over video */
 .site-header {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* semi-transparent */
+    top: 15px;
+    left: 40px;
+    /* increase left spacing */
+    right: 40px;
+    /* increase right spacing */
+
+    width: auto;
+    /* IMPORTANT */
+    border-radius: 16px;
+
     backdrop-filter: blur(6px);
-    /* glass effect */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+
     z-index: 1000;
 }
+
 
 /* Hero section sits on top of video */
 .hero-section {
@@ -1093,23 +1103,26 @@ body {
 ========================= */
 
 .footer-title {
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  color: #000;
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
 }
 
 .brand-icon {
-  display: inline-flex;
-  align-items: center;
-  color: #000000; /* brand accent */
+    display: inline-flex;
+    align-items: center;
+    color: #1850ca;
+    /* brand accent */
 }
 
 .brand-icon svg {
-  display: block;
+    display: block;
+    height: 30px;
+    width: 30px;
 }
 
 .footer {
