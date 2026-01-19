@@ -835,7 +835,7 @@ canvas:active {
     margin: 0 15px;
     padding: 4px;
     border: 1px solid #0073e6;
-    background: #017dfa;
+    background: #6595fc;
 }
 
 .why-icon svg {
@@ -1204,7 +1204,7 @@ canvas:active {
 }
 
 .link-inline {
-    color: #e17b4f;
+    color: #0073e6;
     text-decoration: none;
     font-weight: 500;
 }
@@ -1240,7 +1240,7 @@ canvas:active {
 
 .input-text:focus,
 .input-text-area:focus {
-    border-color: #e17b4f;
+    border-color: #0073e6;
 }
 
 .input-text-area {
@@ -1306,7 +1306,7 @@ canvas:active {
 /* BUTTON */
 .form-2 .btn-primary {
     margin-top: 10px;
-    background: #e17b4f;
+    background: #0073e6;
     color: #fff;
     border: none;
     padding: 14px;
@@ -1360,7 +1360,7 @@ canvas:active {
     font-size: 26px;
     font-weight: 500;
     letter-spacing: -0.02em;
-    color: #000;
+    color: #0073e6;
     display: inline-flex;
     align-items: center;
     gap: 2px;
@@ -1489,7 +1489,7 @@ canvas:active {
 }
 
 .typo-eyebrow-title.orange {
-    color: #ff7a00;
+    color: #0073e6;
 }
 
 /* -------------------------
