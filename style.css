@@ -437,6 +437,10 @@ canvas:active {
         padding: 16px 0;
         align-items: flex-start;
     }
+
+    .nav-menu a {
+        color: #000000 !important;
+    }
 }
 
 /* Extra small screens */
