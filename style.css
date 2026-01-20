@@ -322,20 +322,8 @@ canvas:active {
     padding: 5px 8px;
 }
 
-@media (max-width: 900px) {
-    .container {
-        padding: 10px;
-    }
-
-    .nav-menu ul {
-        gap: 14px;
-    }
-}
-
 /* MOBILE STYLES */
-@media (max-width: 700px) {
-
-
+@media (max-width: 900px) {
     .container {
         display: flex !important;
         align-items: center !important;
