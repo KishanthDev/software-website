@@ -882,6 +882,7 @@ canvas:active {
     gap: 40px;
     padding-bottom: 10px;
     scroll-behavior: smooth;
+    justify-content: center;
 }
 
 .trusted-logo {
